@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.337f9427.css",
-    "main.js": "/static/js/main.66a23098.js",
-    "static/js/787.ce19d291.chunk.js": "/static/js/787.ce19d291.chunk.js",
-    "static/media/logo.jpeg": "/static/media/logo.42ad4718761bd7201ac9.jpeg",
-    "index.html": "/index.html",
-    "main.337f9427.css.map": "/static/css/main.337f9427.css.map",
-    "main.66a23098.js.map": "/static/js/main.66a23098.js.map",
-    "787.ce19d291.chunk.js.map": "/static/js/787.ce19d291.chunk.js.map"
+    "main.css": "/test-luwjistik/static/css/main.337f9427.css",
+    "main.js": "/test-luwjistik/static/js/main.0166d1f8.js",
+    "static/js/787.ce19d291.chunk.js": "/test-luwjistik/static/js/787.ce19d291.chunk.js",
+    "static/media/logo.jpeg": "/test-luwjistik/static/media/logo.42ad4718761bd7201ac9.jpeg",
+    "index.html": "/test-luwjistik/index.html",
+    "main.337f9427.css.map": "/test-luwjistik/static/css/main.337f9427.css.map",
+    "main.0166d1f8.js.map": "/test-luwjistik/static/js/main.0166d1f8.js.map",
+    "787.ce19d291.chunk.js.map": "/test-luwjistik/static/js/787.ce19d291.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.337f9427.css",
-    "static/js/main.66a23098.js"
+    "static/js/main.0166d1f8.js"
   ]
 }
