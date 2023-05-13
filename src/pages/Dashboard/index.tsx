@@ -10,23 +10,17 @@ const DashboardPage = (props: Props) => {
   const isLogin = storage.getItem(KEYS.token)
   const navigate = useNavigate()
 
-  useEffect(()=>{
-    window.addEventListener("storage", ()=>{
-      console.log("changes")
-    })
-  },[])
-
   if(!isLogin) {
-    return <Navigate to="/test-luwjistik/login" />
+    return <Navigate to="/login" />
   }
 
   const onLogout = () => {
     storage.removeItem(KEYS.token)
-    navigate("/test-luwjistik/login")
+    navigate("/login")
   }
 
   const goToOrders = () => {
-    navigate("/test-luwjistik/order")
+    navigate("/order")
   }
 
   return (
