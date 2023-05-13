@@ -17,16 +17,16 @@ const DashboardPage = (props: Props) => {
   },[])
 
   if(!isLogin) {
-    return <Navigate to="/login" />
+    return <Navigate to="/test-luwjistik/login" />
   }
 
   const onLogout = () => {
     storage.removeItem(KEYS.token)
-    navigate("/login")
+    navigate("/test-luwjistik/login")
   }
 
   const goToOrders = () => {
-    navigate("/order")
+    navigate("/test-luwjistik/order")
   }
 
   return (

@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css"
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path:"/test-luwjistik",
     element: <DashboardPage/>,
     children: [
       {
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     ]
   },
   {
-    path: "/login",
+    path: "/test-luwjistik/login",
     element: <AuthPage />
   }
 ])

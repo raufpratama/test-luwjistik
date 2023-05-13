@@ -31,7 +31,7 @@ client.interceptors.response.use(
   function (error) {
     if (error.response.status === 401) {
       storage.removeItem(KEYS.token)
-      window.location.href = "/login"
+      window.location.href = "/test-luwjistik/login"
     }
 
     toast.error(`error occured: ${error?.response?.data?.error ?? ""} ${error?.response?.status}`)
