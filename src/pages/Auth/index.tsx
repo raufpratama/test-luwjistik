@@ -25,7 +25,7 @@ const AuthPage:React.FC = () => {
   }
 
   if(isLoggedIn) {
-    return <Navigate to=""/>
+    return <Navigate to="/"/>
   }
 
   return (
