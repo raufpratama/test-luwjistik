@@ -1,0 +1,28 @@
+.container {
+  box-shadow: 0px -1px 10px -1px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0px -1px 10px -1px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px -1px 10px -1px rgba(0,0,0,0.35);
+  box-sizing: border-box;
+  padding: 10px 14px;
+  background-color: white;
+  border-radius: 5px;
+  display: grid;
+  gap: 10px;
+}
+
+.item-detail-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.label-desc {
+  font-size: 14px;
+  font-weight: 600;
+  width: 100px;
+}
+
+.label-detail {
+  font-size: 14px;
+  flex-grow: 1;
+}

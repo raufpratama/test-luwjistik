@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  gap: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background-color: green;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}

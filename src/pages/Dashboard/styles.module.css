@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.outlet {
+  flex: 1;
+  padding: 16px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 180px;
+  padding: 16px;
+  background-color: whitesmoke;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: scroll;
+}
