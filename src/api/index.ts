@@ -7,7 +7,6 @@ const baseConfig = {
   baseURL: 'https://fe-screening.onrender.com',
   headers: {
     'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*'
   },
   /* other custom settings */
   timeout: 10000,
